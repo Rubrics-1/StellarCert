@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-17-pre-signed-s3-profile-picture-url-expires-after",
+    "fix/issue-21-on-chain-certificate-issuance-failure-leaves",
+    "fix/issue-24-user-type-inconsistency-firstname-in-user-guard",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-17-pre-signed-s3-profile-picture-url-expires-after": "main",
+    "fix/issue-21-on-chain-certificate-issuance-failure-leaves": "main",
+    "fix/issue-24-user-type-inconsistency-firstname-in-user-guard": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-17-pre-signed-s3-profile-picture-url-expires-after",
+    "fix/issue-21-on-chain-certificate-issuance-failure-leaves",
+    "fix/issue-24-user-type-inconsistency-firstname-in-user-guard",
+    "origin"
+  ]
+}
